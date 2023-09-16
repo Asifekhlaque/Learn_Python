@@ -25,11 +25,11 @@ Arithmetic operators are used to perform mathematical operations on numeric valu
     Divides the left operand by the right operand, and the result is a Not floating-point number.
     result= 5 // 2  # result will be 1 
   # Modulus (%):
-   Returns the remainder of the division of the left operand by the right operand.
-   result = 17 % 5  # result will be 2
+    Returns the remainder of the division of the left operand by the right operand.
+    result = 17 % 5  # result will be 2
   # Exponentiation (**):
-   Raises the left operand to the power of the right operand.
-   result = 2 ** 3  # result will be 8
+    Raises the left operand to the power of the right operand.
+    result = 2 ** 3  # result will be 8
 # Relational operators in python
   # Greater than (>):
    True if the left operand is greater than the right	
