@@ -31,6 +31,7 @@ Arithmetic operators are used to perform mathematical operations on numeric valu
     Raises the left operand to the power of the right operand.
     result = 2 ** 3  # result will be 8
 # Relational operators in python
+Relational operators are used for comparing the values. It either returns True or False according to the condition. These operators are also known as Comparison Operators.
   # Greater than (>):
     True if the left operand is greater than the right	
     x > y
