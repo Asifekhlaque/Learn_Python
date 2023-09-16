@@ -32,14 +32,20 @@ Arithmetic operators are used to perform mathematical operations on numeric valu
    result = 2 ** 3  # result will be 8
 # Relational operators in python
   # Greater than (>):
-   True if the left operand is greater than the right	x > y
+   True if the left operand is greater than the right	
+   x > y
   # Less than (<):
-    True if the left operand is less than the right	x < y
+    True if the left operand is less than the right	
+    x < y
   # Equal to (==):
-    True if both operands are equal	x == y
+    True if both operands are equal	
+    x == y
   # Not equal to (!=)
-    True if operands are not equal	x != y
+    True if operands are not equal 
+    x != y
   # Greater than or equal to (>=)
-    True if left operand is greater than or equal to the right	x >= y
+    True if left operand is greater than or equal to the right	
+    x >= y
   # Less than or equal to (<=)
-    True if left operand is less than or equal to the right	x <= y
+    True if left operand is less than or equal to the right	
+    x <= y
