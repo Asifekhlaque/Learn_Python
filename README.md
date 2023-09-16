@@ -4,7 +4,7 @@ Python is a high-level, interpreted programming language known for its simplicit
 Python is used in a wide range of applications, including web development, scientific computing, data analysis, automation, artificial intelligence, machine learning, and more.
 # Let's Python
 # Python Print Statement
-   print("Hello, Python!")
+    print("Hello, Python!")
 # Operater
 An operator is a symbol or keyword used to perform operations on data. Operators are used to manipulate values and variables to produce a result.
 # Arithmetic Operators in python
