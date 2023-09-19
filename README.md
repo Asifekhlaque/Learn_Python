@@ -51,11 +51,11 @@ Relational operators are used for comparing the values. It either returns True o
     #True if left operand is less than or equal to the right	
     x <= y
 #  Logical Operators in python
- # and 
-   #Returns True if both statements are true
-   x = 5
-   print(x > 3 and x < 10)
-  #returns True because 5 is greater than 3 AND 5 is less than 10
+  # and 
+    #Returns True if both statements are true
+    x = 5
+    print(x > 3 and x < 10)
+    #returns True because 5 is greater than 3 AND 5 is less than 10
 # or
   #Returns True if one of the statements is true
   x = 5
