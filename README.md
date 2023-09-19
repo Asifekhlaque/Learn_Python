@@ -50,3 +50,40 @@ Relational operators are used for comparing the values. It either returns True o
   # Less than or equal to (<=)
     #True if left operand is less than or equal to the right	
     x <= y
+#  Logical Operators in python
+ # and 
+   #Returns True if both statements are true
+   x = 5
+   print(x > 3 and x < 10)
+  #returns True because 5 is greater than 3 AND 5 is less than 10
+# or
+  #Returns True if one of the statements is true
+  x = 5
+  print(x > 3 or x < 4)
+  #returns True because one of the conditions are true (5 is greater than 3, but 5 is not less than 4)
+# not
+  #Reverse the result, returns False if the result is true
+  x = 5
+  print(not(x > 3 and x < 10))
+  #returns False because not is used to reverse the result
+# Control Statement
+# Condition Statement
+# if
+  #If you have only one statement to execute, you can put it on the same line as the if statement.
+  a = 200
+  b = 33
+  if a > b: print("a is greater than b")
+# else
+  #The else keyword catches anything which isn't caught by the preceding conditions.
+ a = 200
+ b = 33
+ if b > a:
+  print("b is greater than a")
+ else:
+  print("b is not greater than a")
+# If ... Else
+  #If you have only one statement to execute, one for if, and one for else, you can put it all on the same line:
+  a = 2
+  b = 330
+  print("A") if a > b else print("B")
+  
