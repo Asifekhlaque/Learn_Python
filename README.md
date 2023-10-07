@@ -87,3 +87,5 @@ Relational operators are used for comparing the values. It either returns True o
    b = 330
    print("A") if a > b else print("B")
   
+# How to install Matplotlib
+   py -m pip install matplotlib
