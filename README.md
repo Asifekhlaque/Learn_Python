@@ -1,4 +1,4 @@
-<img src="https://github.com/Asifekhlaque/Learn_Python/assets/132199879/7d6e16cd-23e8-4b91-bb29-1f63f3bbe65c" with=300px>
+<img src="https://github.com/Asifekhlaque/Learn_Python/assets/132199879/7d6e16cd-23e8-4b91-bb29-1f63f3bbe65c" with="300"/>
 # Learn_Python
 Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python is designed to emphasize code readability and ease of use, making it a popular choice for both beginners and experienced programmers.
 # Need of Python
