@@ -1,0 +1,7 @@
+Armstrong number
+palindrome number
+perfect number    Done
+happy number
+magic number
+piglution number  vii
+anagrum           vvi
