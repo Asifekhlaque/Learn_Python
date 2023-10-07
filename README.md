@@ -89,6 +89,46 @@ Relational operators are used for comparing the values. It either returns True o
     a = 2
     b = 330
     print("A") if a > b else print("B")
-  
+  # Looping Statement
+    # For Loop
+      # for i(variable name) in range(Starting point,Ending point,interval)
+       for i in range(1,10,1):
+          print("Hello",i)
+
+    # While loop
+      i = 1
+      while i < 6:
+        print(i)
+        i += 1
+
+   # Break For
+     fruits = ["apple", "banana", "cherry"]
+     for x in fruits:
+       print(x) 
+      if x == "banana":
+       break
+   # Continue Statement For
+      fruits = ["apple", "banana", "cherry"]
+      for x in fruits:
+       if x == "banana":
+         continue
+       print(x) 
+
+   # Break while
+    i = 1
+    while i < 6:
+      print(i)
+     if (i == 3):
+      break
+     i += 1
+# Continue Statement while
+    i = 0
+    while i < 6:
+     i += 1
+     if i == 3:
+      continue
+     print(i)
+
+     
 # How to install Matplotlib
     py -m pip install matplotlib
