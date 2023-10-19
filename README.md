@@ -131,6 +131,11 @@ Relational operators are used for comparing the values. It either returns True o
 
 # Function in Python
   A function is a block of code which only runs when it is called.
+  
+    def my_function():
+      print("Hello from a function")
+
+    my_function()
 
 # How to install Matplotlib
     py -m pip install matplotlib
