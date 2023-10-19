@@ -136,6 +136,12 @@ Relational operators are used for comparing the values. It either returns True o
       print("Hello from a function")
 
     my_function()
+# Python Lambda
+  A lambda function is a small anonymous function.
+  A lambda function can take any number of arguments, but can only have one expression.
 
+    x = lambda a, b: a * b
+    print(x(5, 6))
+    
 # How to install Matplotlib
     py -m pip install matplotlib
