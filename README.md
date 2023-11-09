@@ -158,10 +158,10 @@ There are three types of exceptions:
 2. ValueError:
 3. IndexError:
 
-The <i>try</i> block lets you test a block of code for errors.
+The <b><i>try</i></b> block lets you test a block of code for errors.
 <br>
-The <i>except</i> block lets you handle the error.
+The <b><i>except</i></b> block lets you handle the error.
 <br>
-The <i>else</i> block lets you execute code when there is no error.
+The <b><i>else</i></b> block lets you execute code when there is no error.
 <br>
-The <i>finally</i> block lets you execute code, regardless of the result of the try- and except blocks.
+The <b><i>finally</i></b> block lets you execute code, regardless of the result of the try- and except blocks.
