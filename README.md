@@ -166,12 +166,13 @@ The <b><i>else</i></b> block lets you execute code when there is no error.
 <br>
 The <b><i>finally</i></b> block lets you execute code, regardless of the result of the try- and except blocks.
 <br>
-try:
-    # code that may raise an exception
-    #pass
-except Exception as e:
-    code to handle the exception
-    pass
-finally:
-    code that will always be executed
-    pass
+       
+    try:
+      # code that may raise an exception
+      #pass
+    except Exception as e:
+      #code to handle the exception
+      #pass
+    finally:
+      #code that will always be executed
+      #pass
