@@ -157,3 +157,8 @@ There are three types of exceptions:
 1. ZeroDivisionError: It is raised when a number is divided by zero
 2. ValueError:
 3. IndexError:
+
+The <b>try</b> block lets you test a block of code for errors.
+The except block lets you handle the error.
+# The else block lets you execute code when there is no error.
+# The finally block lets you execute code, regardless of the result of the try- and except blocks.
