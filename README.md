@@ -145,3 +145,15 @@ Relational operators are used for comparing the values. It either returns True o
     
 # How to install Matplotlib
     py -m pip install matplotlib
+
+# Exception Handling
+
+There are three type of error:
+1. SyntaxError
+2. LogicalError
+3. Exception
+
+There are three types of exceptions:
+1. ZeroDivisionError: It is raised when a number is divided by zero
+2. ValueError:
+3. IndexError:
