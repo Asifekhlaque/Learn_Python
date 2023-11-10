@@ -178,8 +178,26 @@ Collection of charactor 12sfhghcjvj/,=+*
     o="IIBM"
     p="BCA"
     txt="Asif is Rollno {0} He is a {2} From {1}"
+    print(txt.format(n,o,p))
 
-print(txt.format(n,o,p))
+# List
+Importent List can contain multiple data type
+l=["Asif",19,22.3,"484",True]
+# Method of list
+
+    data=[40,50,70,10,20,30,80]
+    print(max(data))
+    data.append(45)
+    print(data)
+    data.reverse()
+    data.remove(50)
+    print(data.index(20))
+    data.insert(0,69)
+    data.clear()
+    data.pop(5)
+    data.sort()
+    print(data[0])
+    print(len(data))
 # How to install Matplotlib
     py -m pip install matplotlib
 
