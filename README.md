@@ -199,6 +199,20 @@ l=["Asif",19,22.3,"484",True]
     data.sort()
     print(data[0])
     print(len(data))
+
+# Function
+A function is a block of code which only runs when it is called.
+<br>
+You can pass data, known as parameters, into a function.
+<br>
+A function can return data as a result.
+<br>
+
+    def fun(a):
+    print("Function is done")
+    print(a)
+    fun(10)
+
 # How to install Matplotlib
     py -m pip install matplotlib
 
