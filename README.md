@@ -182,6 +182,7 @@ Collection of charactor 12sfhghcjvj/,=+*
 
 # List
 Importent List can contain multiple data type
+<br>
 l=["Asif",19,22.3,"484",True]
 # Method of list
 
