@@ -142,7 +142,44 @@ Relational operators are used for comparing the values. It either returns True o
 
     x = lambda a, b: a * b
     print(x(5, 6))
-    
+
+# String 
+Strings in python are surrounded by either single quotation marks, or double quotation marks.
+Collection of charactor 12sfhghcjvj/,=+*
+# String Method
+   
+    print("a",len(a))
+    print("\nb",b)
+    print("\nc",c)
+    print(d.lower())
+    print(e.upper())
+    print(len(f))
+    print(f.strip()) # Remove gap
+    print(len(f))
+    print(g.split(' ')) # We can add any condition to it for cutting
+    print(g.split('i')) 
+    print(' '.join(g))
+    print(h.replace('boy','girl'))
+    print(h.replace('gamer boy','playing girl'))
+    print(h.startswith('A'))
+    print(h.endswith('boy'))
+    print(i.count('is'))
+    print(i.find('is'))
+    print(i.rfind('is'))
+    print(j.isalpha())  
+    print(k.capitalize())
+    print(k.title())
+    print(k.swapcase())
+    print(k.isupper())
+    print(k.islower())
+    print(l.isupper())
+    print(m.center(20,"+"))
+    n=59
+    o="IIBM"
+    p="BCA"
+    txt="Asif is Rollno {0} He is a {2} From {1}"
+
+print(txt.format(n,o,p))
 # How to install Matplotlib
     py -m pip install matplotlib
 
