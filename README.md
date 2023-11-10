@@ -136,6 +136,13 @@ Relational operators are used for comparing the values. It either returns True o
       print("Hello from a function")
 
     my_function()
+
+    def sq(x):
+       print("Value is",x)
+       return x*x
+
+    print(sq(x=10))
+
 # Python Lambda
   A lambda function is a small anonymous function.
   A lambda function can take any number of arguments, but can only have one expression.
@@ -200,21 +207,7 @@ l=["Asif",19,22.3,"484",True]
     print(data[0])
     print(len(data))
 
-# Function
-A function is a block of code which only runs when it is called.
-<br>
-You can pass data, known as parameters, into a function.
-<br>
-A function can return data as a result.
-<br>
 
-    def fun(a):
-    print("Function is done")
-    print(a)
-    fun(10)
-
-# How to install Matplotlib
-    py -m pip install matplotlib
 
 # Exception Handling
 
@@ -246,3 +239,5 @@ The <b><i>finally</i></b> block lets you execute code, regardless of the result 
     finally:
       #code that will always be executed
       #pass
+# How to install Matplotlib
+    py -m pip install matplotlib
