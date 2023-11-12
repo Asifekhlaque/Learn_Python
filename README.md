@@ -207,6 +207,20 @@ l=["Asif",19,22.3,"484",True]
     print(data[0])
     print(len(data))
 
+# Python Classes/Objects
+Python is an object oriented programming language.
+<br>
+Almost everything in Python is an object, with its properties and methods.
+<br>
+A Class is like an object constructor, or a "blueprint" for creating objects.
+<br>
+# Create a Class
+To create a class, use the keyword class:
+
+    class MyClass:
+        x = 5
+
+    print(MyClass)
 
 
 # Exception Handling
