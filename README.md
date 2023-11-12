@@ -218,9 +218,72 @@ A Class is like an object constructor, or a "blueprint" for creating objects.
 To create a class, use the keyword class:
 
     class MyClass:
-        x = 5
+      x = 5
 
     print(MyClass)
+
+    class Person:
+     def __init__(self, name, age):
+      self.name = name
+      self.age = age
+
+    p1 = Person("John", 36)
+
+    print(p1.name)
+    print(p1.age)
+
+# Python Inheritance
+Inheritance allows us to define a class that inherits all the methods and properties from another class.
+<br>
+Parent class is the class being inherited from, also called base class.
+<br>
+Child class is the class that inherits from another class, also called derived class.
+<br>
+
+    # Inheritance class of having subclass with comman code of function
+    # Like class Animal and subclass cat , dog , lion and tiger
+    class c:
+      def squ(s):
+        s.y=int(input("Enter a number for square root"))
+
+      def cube(s):
+        s.x=int(input("Enter a number for cube root"))
+
+    class d(c):
+      def show(s):
+        print("square",s.y*s.y,"\nCube",s.x*s.x*s.x)
+
+    obj=d()
+    obj.squ()
+    obj.cube()
+    obj.show()
+
+# Python Polymorphism
+The word "polymorphism" means "many forms", and in programming it refers to methods/functions/operators with the same name that can be executed on many objects or classes.
+
+    # Diffent function into one class
+    # Method overriding when to or more method define as same name and same parameter in two or more class not possible to declare in a single class is called overriding
+    class a:
+      def info(s):
+        print("Airtal")
+
+    class b:
+      def info(s):
+        print("BSNL")
+
+    class c:
+      def info(s):
+        print("JIO")
+
+    obj=c()
+    obj.info()
+
+    asif=a()
+    asif.info()
+
+    obj=b()
+    obj.info()
+
 
 
 # Exception Handling
