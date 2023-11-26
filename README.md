@@ -207,6 +207,56 @@ l=["Asif",19,22.3,"484",True]
     print(data[0])
     print(len(data))
 
+# Python Set
+<ul>
+<li>Set is a datatype.</li>
+<li>Set can not be duplicated</li>
+<li>It is declared by {}</li>
+<li>It can be change or mutable</li>
+<li>Set is unorder and unindexed, we can not access elements by index</li>
+</ul>
+
+    s={'Java','Python','Ruby'}
+    print(set(s))
+    print(s.add('PHP'))
+    print(s.update(['C++','C#']))
+    print(s.remove('Java'))
+    print(s.discard('C++'))
+    print(s.pop())
+    print(s)
+
+# Python Tuple
+<uL>
+    <li>Tuple is immutable data type</li>
+    <li>It can not be change</li>
+    <li>It is declared by ()</li>
+</uL>
+
+    t=(1,2,3,4)
+    print(t)
+    print(t.count(2))
+    print(t.index(3))
+
+# Python Dictionary
+<ul>
+    <li>Dictionary is mutable data type</li>
+    <li>It can be change</li>
+    <li>It is declared by {}</li>
+    <li>It can be access by key</li>
+    <li>It is used to store data in key value pair</li>
+    <li>It can not be access by index</li>
+</ul>
+
+    d={'name':'Asif','age':19,'city':'Patna','course':'BCA'}
+    print(d)
+    print(d['course'])
+    print(d.get('age'))
+    print(d.keys())
+    print(d.values())
+    print(d.items())
+    d['course']='MCA'
+    print(d['name'])
+
 # Python Classes/Objects
 Python is an object oriented programming language.
 <br>
