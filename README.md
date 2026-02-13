@@ -206,6 +206,7 @@ l=["Asif",19,22.3,"484",True]
     data.sort()
     print(data[0])
     print(len(data))
+    del data
 
 # Python Set
 <ul>
